@@ -1,0 +1,25 @@
+{
+  "name": "the-bearcat-clinic",
+  "version": "1.0.0",
+  "description": "A mock clinic appointment booking app for Baruch College students.",
+  "main": "index.js",
+  "scripts": {
+    "test": "A mock clinic appointment booking app for Baruch College students."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmiJoba22/TheBearcatClinic.git"
+  },
+  "keywords": [
+    "https://github.com/AmiJoba22/TheBearcatClinic.git"
+  ],
+  "author": "AmiJoba22",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AmiJoba22/TheBearcatClinic/issues"
+  },
+  "homepage": "https://github.com/AmiJoba22/TheBearcatClinic#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
