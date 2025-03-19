@@ -2,9 +2,11 @@
   "name": "the-bearcat-clinic",
   "version": "1.0.0",
   "description": "A mock clinic appointment booking app for Baruch College students.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "A mock clinic appointment booking app for Baruch College students."
+    "test": "echo \"Error: no test specified \" && exit 1",
+    "start": "node server.js",
+    "server": "nodeman server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,19 @@
   },
   "homepage": "https://github.com/AmiJoba22/TheBearcatClinic#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "react": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }
