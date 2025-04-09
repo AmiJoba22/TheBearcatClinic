@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified \" && exit 1",
     "start": "node server.js",
-    "server": "nodeman server.js"
+    "server": "nodeman server.js",
+    "client": "npm start --prefix, /client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "colors": "^1.4.0",
+    "concurrently": "^9.1.2",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
